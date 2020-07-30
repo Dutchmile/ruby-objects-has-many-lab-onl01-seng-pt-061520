@@ -27,5 +27,5 @@ class Author
 
   def author_name
   end
-  
+
 end
