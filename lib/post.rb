@@ -1,6 +1,6 @@
 class Post
 
-  @@posts = []
+  @@all= []
 
   attr_accessor :name, :author, :title
 
@@ -14,7 +14,7 @@ class Post
   end
 
   def save
-    @@posts << self
+    @@all << self
   end
 
 
