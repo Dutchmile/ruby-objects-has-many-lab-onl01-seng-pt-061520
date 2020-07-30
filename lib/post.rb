@@ -4,7 +4,7 @@ class Post
 
   attr_accessor :name, :author
 
-  def initialize(name)
+  def initialize
     @name = name
     save
   end
