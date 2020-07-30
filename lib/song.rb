@@ -6,7 +6,8 @@ class Song
     @title = title
   end
 
-def add_artist(artist)
-  self.artist = artist
+  def add_artist(artist)
+    self.artist = artist
+  end
 
 end
