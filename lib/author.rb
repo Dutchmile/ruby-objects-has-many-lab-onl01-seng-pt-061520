@@ -4,6 +4,11 @@ class Author
 
   def initialize(name)
     @name = name
+    @posts = []
   end
 
 end
+
+  def posts
+    Post.select {|post| post.author == self}
+  end
