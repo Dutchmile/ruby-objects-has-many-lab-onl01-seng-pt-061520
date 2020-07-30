@@ -4,7 +4,7 @@ class Post
 
   attr_accessor :name
 
-  def all
+  def self.all
     @@posts
   end
 
